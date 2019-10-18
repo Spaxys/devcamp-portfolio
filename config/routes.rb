@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :portfolios
   get 'test2/foo'
   get 'test2/bar'
   get 'test2/zor'
