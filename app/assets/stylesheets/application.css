@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+.daniel-success {
+	color: green;
+}
+
+.daniel-danger {
+	color: salmon;
+}
