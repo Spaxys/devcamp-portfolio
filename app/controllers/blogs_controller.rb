@@ -29,6 +29,8 @@ class BlogsController < ApplicationController
   # POST /blogs.json
   def create
     @blog = Blog.new(blog_params)
+    topic = Topic.first
+    @blog.topic = topic
 
     respond_to do |format|
       if @blog.save
