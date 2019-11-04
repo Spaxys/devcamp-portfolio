@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Spaxys/devcamp_view_tool
+  revision: fea9347f431c5ecb32a18f348adae8ab6bb2365e
+  specs:
+    devcamp_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -218,6 +224,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   bootstrap (~> 4.3.1)
   byebug
+  devcamp_view_tool!
   devise (~> 4.7, >= 4.7.1)
   friendly_id (~> 5.2.4)
   jbuilder (~> 2.7)
